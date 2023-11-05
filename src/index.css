@@ -1,0 +1,114 @@
+.container {
+  height: 30rem;
+  width: 70rem;
+  background-color: lightcyan;
+  border: 10px solid aqua;
+  border-radius: 1rem;
+  font-family: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+h1 {
+  color: aliceblue;
+  background-color: aqua;
+  width: 4rem;
+  border-radius: 2rem;
+}
+p {
+  font-size: 1.2rem;
+}
+
+.icon {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.refresh {
+  background-color: green;
+  color: aliceblue;
+  width: 3rem;
+  height: 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.recycle {
+  background-color: blue;
+  color: aliceblue;
+  width: 3rem;
+  height: 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+/* .recycle-active {
+  background-color: blue;
+  color: aliceblue;
+  width: 3rem;
+  height: 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.recycle-disabled {
+  background-color: rgb(76, 76, 181);
+  color: aliceblue;
+  width: 3rem;
+  height: 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+} */
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+h2 {
+  background-color: yellow;
+  height: 2rem;
+  width: 4.5rem;
+  border-radius: 0.5rem;
+}
+
+.add {
+  background-color: gray;
+  color: aliceblue;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.sub {
+  background-color: aqua;
+  color: aliceblue;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete {
+  background-color: red;
+  color: aliceblue;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
